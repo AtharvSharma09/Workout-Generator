@@ -1,4 +1,4 @@
-# Workout Routine Generator
+# Personalised Workout Routine Generator
 A Python-based command-line application that generates personalized weekly workout routines based on user input, including fitness level, workout intensity, available time, and physical measurements.
 ## Features
 
