@@ -1,6 +1,6 @@
 # Workout Routine Generator
 A Python-based command-line application that generates personalized weekly workout routines based on user input, including fitness level, workout intensity, available time, and physical measurements.
-Features
+## Features
 
 User Input Collection: Gathers user details such as current weight, height, goal weight, fitness level, workout intensity, weekly workout days, session duration, and calorie intake.
 Unit Conversion: Supports input in kg/feet, pounds/meters, or kg/meters with automatic conversion to kg and meters.
@@ -9,22 +9,22 @@ Time Management: Adjusts exercise durations to fit the user's specified workout 
 Randomized Routines: Creates varied daily workout plans for the specified number of days (1-7) with random exercise selection and durations.
 Input Validation: Ensures all inputs are valid numbers within acceptable ranges.
 
-Requirements
+## Requirements
 
 Python 3.x
 Standard library: random
 
-How to Run
+## How to Run
 
 Clone or download the repository.
 
 Navigate to the project directory.
 
-Run the script:
+### Run the script:
 python workout_generator.py
 
 
-Follow the prompts to:
+### Follow the prompts to:
 
 Enter weight, height, and goal weight with preferred units (kg/feet, pound/m, kg/m).
 Select workout intensity (Casual, Average, Hardcore).
@@ -36,7 +36,7 @@ View the generated weekly workout routine.
 
 
 
-Gameplay
+## Gameplay
 
 Fitness Levels and Exercises:
 Beginner: Bodyweight Squats, Push Ups, Treadmill Walking, Plank Hold, etc.
@@ -44,7 +44,7 @@ Intermediate: Barbell Back Squats, Bench Press, Pull Ups, Mountain Climbers, etc
 Advanced: Barbell Deadlifts, Clean and Press, Box Jumps, Pistol Squats, etc.
 
 
-Workout Structure:
+## Workout Structure:
 Routines are generated for the specified number of days (e.g., Monday to Wednesday for 3 days).
 Each day includes 1 or more exercises with durations adjusted to fit the user’s available time.
 Exercise durations vary based on session length (e.g., 1-5 min for short sessions, 2-15 min for longer ones).
@@ -52,11 +52,11 @@ Exercise durations vary based on session length (e.g., 1-5 min for short session
 
 Output: Displays a weekly plan with exercises and their durations for each workout day.
 
-File Structure
+## File Structure
 
 workout_generator.py: Main script containing UserInput and Workout classes, along with the main logic.
 
-Example
+## Example
 
 Enter your weight: 70
 
@@ -102,7 +102,16 @@ Jump Squats: 5 min
 
 Cable Chest Flys: 4 min
 
-Contributing
+## Contributing
 Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests to add features like new exercises, improved time allocation algorithms, or a graphical interface.
-License
+## License
 This project is open-source and available under the MIT License.
+
+## Contact
+For questions, suggestions, or issues, please:
+
+Open an issue on GitHub.
+
+Contact Atharv Sharma at atharvsharmatgu@gmail.com.
+
+This project showcases Python skills, including object-oriented programming, randomization, and game logic. It was built as a fun and educational exercise to simulate a popular card game. Enjoy playing, and may the cards be in your favor!
